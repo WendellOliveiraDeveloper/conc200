@@ -20,12 +20,12 @@ const PaginaLogin = () => {
         </div>
         <form onSubmit={handleLogin}>
           <div className="camposLogin">
-            <Label tituloLabel={"Email"} required={true} />
-            <input type="text" />
+            <Label tituloLabel={"Email"} nomeInput={"emailLogin"} required={true} />
+            <input type="text" id="emailLogin"/>
           </div>
           <div className="camposLogin">
-            <Label tituloLabel={"Senha"} required={true} />
-            <input type="password" />
+            <Label tituloLabel={"Senha"} nomeInput={"passwordLogin"} required={true} />
+            <input type="password" id="passwordLogin"/>
           </div>
           <div className="botoesLogin">
             <button type="submit">Logar</button>

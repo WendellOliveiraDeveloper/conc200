@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import { Navbar } from "../../components";
 
 const PaginaPrincipal = () => {
   return (
-    <div>PaginaPrincipal</div>
-  )
-}
+    <div>
+      <Navbar />
+    </div>
+  );
+};
 
-export default PaginaPrincipal
+export default PaginaPrincipal;
